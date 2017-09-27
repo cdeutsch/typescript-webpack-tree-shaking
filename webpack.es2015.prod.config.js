@@ -1,6 +1,6 @@
 'use strict';
 
-let BabiliPlugin = require("babili-webpack-plugin");
+let MinifyPlugin = require("babel-minify-webpack-plugin");
 let path = require('path');
 
 module.exports = {
@@ -23,7 +23,7 @@ module.exports = {
   },
 
   plugins: [
-    new BabiliPlugin()
+    new MinifyPlugin()
   ],
 
   resolve: {
