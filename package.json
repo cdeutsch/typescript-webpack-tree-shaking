@@ -24,7 +24,10 @@
     "email": "soos.gabor86@gmail.com"
   },
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@types/react": "^15.6.4",
+    "react": "^15.6.2"
+  },
   "devDependencies": {
     "awesome-typescript-loader": "~3.2.3",
     "babel-core": "~6.26.0",
